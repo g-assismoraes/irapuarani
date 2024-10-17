@@ -1,0 +1,414 @@
+EN_UA_103861.txt	Chinese	791	797	Antagonist	Spy
+EN_UA_103861.txt	China	1516	1520	Antagonist	Instigator
+EN_UA_103861.txt	Hamas	2121	2125	Antagonist	Terrorist
+EN_UA_103861.txt	Donald Trump	4909	4920	Protagonist	Peacemaker	Guardian
+EN_UA_021270.txt	Yermak	667	672	Antagonist	Incompetent
+EN_UA_021270.txt	Zelensky	846	853	Antagonist	Incompetent
+EN_UA_021270.txt	Zelensky admin	1400	1413	Antagonist	Incompetent
+EN_UA_021270.txt	Yermak	1900	1905	Antagonist	Traitor
+EN_UA_021270.txt	Zelensky's	2104	2113	Antagonist	Bigot
+EN_UA_103403.txt	Moscow	2007	2012	Antagonist	Instigator
+EN_UA_027676.txt	Nato	218	221	Protagonist	Guardian
+EN_UA_027676.txt	Russia	296	301	Antagonist	Foreign Adversary
+EN_UA_027676.txt	China	307	311	Antagonist	Foreign Adversary
+EN_UA_027676.txt	Putin	353	357	Antagonist	Tyrant
+EN_UA_027676.txt	Kyiv	374	377	Innocent	Victim
+EN_UA_027676.txt	Putin	1064	1068	Antagonist	Instigator
+EN_UA_027676.txt	China	2348	2352	Antagonist	Foreign Adversary
+EN_UA_027676.txt	North Korea	2358	2368	Antagonist	Foreign Adversary
+EN_UA_027676.txt	the US	2648	2653	Protagonist	Guardian
+EN_UA_017310.txt	US	909	910	Protagonist	Guardian
+EN_UA_017310.txt	Ukraine	924	930	Protagonist	Underdog
+EN_CC_100005.txt	Stopp Oljeletinga	1700	1716	Antagonist	Terrorist
+EN_CC_100005.txt	COP27	3657	3661	Antagonist	Corrupt
+EN_UA_008586.txt	Washington	949	958	Antagonist	Tyrant
+EN_UA_008586.txt	Brussels	964	971	Antagonist	Tyrant
+EN_UA_008586.txt	US	2207	2208	Antagonist	Tyrant
+EN_UA_014637.txt	Wagner Group	539	550	Antagonist	Corrupt
+EN_UA_014637.txt	Russia	2461	2466	Antagonist	Foreign Adversary
+EN_UA_014637.txt	Yevgeny Prigozhin	3512	3528	Antagonist	Corrupt
+EN_UA_019640.txt	Russia	435	440	Protagonist	Guardian
+EN_UA_019640.txt	China	446	450	Protagonist	Guardian
+EN_UA_019640.txt	West	497	500	Antagonist	Foreign Adversary
+EN_UA_019640.txt	International Criminal Court	845	872	Protagonist	Guardian
+EN_UA_019640.txt	Russia	1099	1104	Innocent	Victim
+EN_UA_019640.txt	China	1883	1887	Antagonist	Foreign Adversary
+EN_UA_019640.txt	Russia	1941	1946	Antagonist	Foreign Adversary
+EN_UA_019640.txt	Russia	2202	2207	Antagonist	Incompetent
+EN_UA_022051.txt	United Kingdom	159	172	Antagonist	Instigator
+EN_UA_022051.txt	London	368	373	Antagonist	Foreign Adversary
+EN_UA_022051.txt	Kiev	379	382	Antagonist	Foreign Adversary
+EN_UA_022051.txt	UK	1781	1782	Antagonist	Saboteur
+EN_UA_004616.txt	Ukrainians	55	64	Protagonist	Underdog
+EN_UA_004616.txt	Russians	113	120	Antagonist	Instigator
+EN_UA_004616.txt	European countries	414	431	Protagonist	Guardian
+EN_UA_004616.txt	Ukraine	820	826	Protagonist	Virtuous
+EN_UA_025165.txt	US politicians	100	113	Antagonist	Traitor
+EN_UA_025165.txt	Kiev	1592	1595	Protagonist	Underdog
+EN_UA_025165.txt	the West	2668	2675	Antagonist	Instigator	Foreign Adversary
+EN_UA_024321.txt	Yulia Navalnaya	235	249	Protagonist	Rebel
+EN_UA_024321.txt	Moscow	1667	1672	Antagonist	Instigator
+EN_UA_024321.txt	Moscow	2297	2302	Antagonist	Foreign Adversary
+EN_UA_024321.txt	Russian diplomats	2401	2417	Antagonist	Foreign Adversary
+EN_UA_000923.txt	Boris Johnson	124	136	Protagonist	Guardian
+EN_UA_000923.txt	Putin	148	152	Antagonist	Instigator
+EN_UA_000923.txt	Russia	501	506	Antagonist	Instigator
+EN_UA_000923.txt	Germany	1278	1284	Antagonist	Incompetent
+EN_UA_000923.txt	EU	1466	1467	Antagonist	Incompetent
+EN_UA_000923.txt	Britain	1510	1516	Protagonist	Virtuous
+EN_UA_000923.txt	UK	1581	1582	Protagonist	Guardian
+EN_UA_000923.txt	Brexit Britain	2047	2060	Protagonist	Virtuous
+EN_CC_100095.txt	Greta Thunberg	269	282	Antagonist	Instigator
+EN_CC_100095.txt	Irma Kjellström	1297	1311	Protagonist	Rebel
+EN_CC_100095.txt	Greta Thunberg	1691	1704	Antagonist	Deceiver
+EN_CC_100106.txt	Al Gore	140	146	Antagonist	Deceiver
+EN_CC_100106.txt	Al Gore	488	494	Antagonist	Deceiver
+EN_CC_100106.txt	Al Gore	1386	1392	Antagonist	Incompetent
+EN_UA_014014.txt	Lula	644	647	Protagonist	Rebel
+EN_UA_014014.txt	IMF	2372	2374	Antagonist	Tyrant
+EN_UA_014014.txt	Argentina	2394	2402	Innocent	Exploited
+EN_UA_014014.txt	Brazil	2430	2435	Innocent	Exploited
+EN_UA_026697.txt	Slovak Prime Minister Robert Fico	631	663	Innocent	Victim
+EN_UA_026697.txt	Victor Orban	1269	1280	Protagonist	Virtuous
+EN_UA_026697.txt	von der Leyen	1594	1606	Antagonist	Corrupt
+EN_UA_026697.txt	Jourova	1612	1618	Antagonist	Corrupt
+EN_UA_101067.txt	RIA Novosti	3825	3835	Antagonist	Deceiver
+EN_UA_002531.txt	Kyiv Mayor Vitali Klitschko	76	102	Protagonist	Rebel	Martyr
+EN_UA_002531.txt	Russian military	219	234	Antagonist	Instigator
+EN_UA_002531.txt	Russian forces	258	271	Antagonist	Saboteur
+EN_UA_002531.txt	Klitschko	456	464	Protagonist	Virtuous
+EN_UA_002531.txt	Klitschko	717	725	Protagonist	Martyr
+EN_UA_002531.txt	Mayor Matveev Sergeevich	1279	1302	Innocent	Victim
+EN_UA_002531.txt	Mayor Ivan Fedorov	1346	1363	Innocent	Victim
+EN_UA_002531.txt	Russian invaders	1616	1631	Antagonist	Terrorist
+EN_UA_002531.txt	Russians	1917	1924	Antagonist	Terrorist
+EN_UA_103732.txt	Zelensky	274	281	Antagonist	Incompetent
+EN_UA_002668.txt	Vlad Putin	230	239	Antagonist	Incompetent
+EN_UA_002668.txt	Ukrainians	853	862	Protagonist	Martyr
+EN_UA_002668.txt	Putin	1269	1273	Antagonist	Deceiver
+EN_UA_002668.txt	Russia	1589	1594	Antagonist	Terrorist
+EN_UA_002668.txt	Putin	1750	1754	Antagonist	Incompetent
+EN_UA_025652.txt	the West	858	865	Antagonist	Instigator
+EN_UA_025652.txt	US-	1095	1097	Antagonist	Conspirator	Deceiver
+EN_UA_025652.txt	West	1114	1117	Antagonist	Conspirator	Deceiver
+EN_UA_014413.txt	GRU	1660	1662	Antagonist	Spy
+EN_CC_100076.txt	Reuters	129	135	Antagonist	Incompetent
+EN_CC_100076.txt	Daily Sceptic	176	188	Innocent	Scapegoat
+EN_CC_100076.txt	Walt Meier	843	852	Antagonist	Incompetent
+EN_CC_100076.txt	Daily Sceptic	1307	1319	Protagonist	Guardian
+EN_UA_013710.txt	ICC	207	209	Antagonist	Corrupt
+EN_UA_013710.txt	Max Boot	314	321	Antagonist	Bigot	Deceiver
+EN_UA_013710.txt	Putin	399	403	Innocent	Victim
+EN_UA_013710.txt	Iraq	625	628	Innocent	Victim
+EN_UA_013710.txt	ICC	738	740	Antagonist	Deceiver
+EN_UA_013710.txt	Vietnamese children	1049	1067	Innocent	Exploited
+EN_UA_024847.txt	United States	89	101	Antagonist	Saboteur	Conspirator
+EN_UA_024847.txt	Washington	439	448	Antagonist	Conspirator
+EN_UA_024847.txt	Joe Biden	622	630	Antagonist	Saboteur
+EN_UA_024847.txt	Seymour Hersh	1351	1363	Protagonist	Virtuous
+EN_UA_024847.txt	Ukraine	2559	2565	Antagonist	Saboteur	Instigator
+EN_UA_024847.txt	Russia	2674	2679	Innocent	Scapegoat
+EN_UA_024847.txt	Ukraine	2800	2806	Antagonist	Saboteur	Conspirator
+EN_UA_100587.txt	RUSSIA	122	127	Antagonist	Saboteur
+EN_UA_100587.txt	Vladimir Putin	741	754	Antagonist	Saboteur
+EN_UA_100587.txt	Ukrainians	2652	2661	Innocent	Exploited	Victim
+EN_CC_100136.txt	Global Warming Policy Foundation	114	145	Antagonist	Deceiver
+EN_CC_100136.txt	Lord Lawson	221	231	Antagonist	Incompetent	Deceiver
+EN_CC_100136.txt	Daily Stormer	1775	1787	Antagonist	Bigot
+EN_UA_028103.txt	Russian intelligence	296	315	Antagonist	Saboteur
+EN_UA_028103.txt	Armin Papperger	344	358	Innocent	Victim
+EN_UA_028103.txt	Russian government	811	828	Antagonist	Saboteur	Conspirator
+EN_UA_028103.txt	Moscow	2787	2792	Antagonist	Conspirator
+EN_UA_015443.txt	Ukraine	732	738	Protagonist	Underdog
+EN_CC_100047.txt	John Kerry	437	446	Antagonist	Deceiver
+EN_CC_100047.txt	Democrats	905	913	Antagonist	Corrupt
+EN_CC_100004.txt	Al Gore	328	334	Antagonist	Deceiver
+EN_CC_100004.txt	China	565	569	Antagonist	Foreign Adversary
+EN_CC_100004.txt	ete Buttigieg	2715	2727	Antagonist	Deceiver
+EN_UA_022016.txt	Russia	132	137	Antagonist	Foreign Adversary
+EN_UA_022016.txt	Kyiv	406	409	Protagonist	Underdog
+EN_UA_022016.txt	Estonian government	694	712	Protagonist	Guardian
+EN_UA_022016.txt	Ukraine	1677	1683	Innocent	Victim
+EN_UA_022016.txt	Ukraine	1978	1984	Protagonist	Rebel
+EN_CC_100091.txt	Greta Thunberg	216	229	Innocent	Exploited
+EN_UA_023008.txt	Davos/UK dominated media	372	395	Antagonist	Deceiver
+EN_UA_023008.txt	Carlson	2801	2807	Innocent	Scapegoat
+EN_UA_023008.txt	Hillary Clinton	2822	2836	Antagonist	Deceiver
+EN_UA_002416.txt	Meta	275	278	Protagonist	Guardian
+EN_UA_002416.txt	Meta's	1398	1403	Antagonist	Incompetent
+EN_UA_002416.txt	Clegg	1866	1870	Protagonist	Peacemaker
+EN_UA_002416.txt	Russia	2912	2917	Antagonist	Tyrant
+EN_UA_103011.txt	Shell	749	753	Antagonist	Corrupt
+EN_UA_103011.txt	BP	759	760	Antagonist	Corrupt
+EN_UA_103011.txt	Russians	988	995	Antagonist	Instigator
+EN_UA_010735.txt	Russia's	78	85	Antagonist	Instigator	Foreign Adversary
+EN_UA_010735.txt	Russian military	475	490	Antagonist	Incompetent
+EN_UA_010735.txt	Russia	1676	1681	Antagonist	Terrorist
+EN_UA_025764.txt	Stanislav Petrov	1794	1809	Protagonist	Guardian
+EN_UA_025764.txt	Ukraine	1918	1924	Innocent	Exploited
+EN_UA_025764.txt	France	1927	1932	Antagonist	Instigator
+EN_UA_025764.txt	Biden	2128	2132	Antagonist	Deceiver
+EN_UA_025764.txt	Washington	2519	2528	Antagonist	Conspirator
+EN_UA_025764.txt	Washington	2592	2601	Antagonist	Foreign Adversary
+EN_UA_025764.txt	Russia	2876	2881	Antagonist	Foreign Adversary
+EN_UA_012611.txt	Russia	75	80	Innocent	Victim
+EN_UA_012611.txt	US	225	226	Antagonist	Conspirator
+EN_UA_012611.txt	Norway	1493	1498	Antagonist	Conspirator
+EN_UA_102990.txt	Ukrainian Government	759	778	Antagonist	Saboteur
+EN_UA_102990.txt	Russia	955	960	Innocent	Scapegoat
+EN_UA_024628.txt	United States	140	152	Protagonist	Guardian
+EN_UA_024628.txt	Ukraine	167	173	Protagonist	Underdog
+EN_UA_024628.txt	Russia	196	201	Antagonist	Foreign Adversary
+EN_UA_024628.txt	Ukraine	731	737	Protagonist	Rebel
+EN_UA_024628.txt	Ukraine	2062	2068	Innocent	Victim
+EN_UA_024628.txt	Moscow	2361	2366	Antagonist	Incompetent
+EN_UA_024628.txt	Berlin	2746	2751	Protagonist	Guardian
+EN_UA_024628.txt	Germany	2929	2935	Protagonist	Guardian
+EN_UA_024628.txt	Washington	2998	3007	Protagonist	Guardian
+EN_UA_013617.txt	President Vladimir Putin	929	952	Protagonist	Virtuous
+EN_UA_013617.txt	Putin	1125	1129	Protagonist	Guardian
+EN_UA_013617.txt	ICC	1361	1363	Antagonist	Corrupt
+EN_UA_013617.txt	American Secretary of State Madeleine Albright	1400	1445	Antagonist	Corrupt
+EN_UA_013617.txt	John Bolton	1646	1656	Antagonist	Tyrant
+EN_UA_013617.txt	Russia	2414	2419	Protagonist	Virtuous
+EN_UA_013617.txt	China	2425	2429	Protagonist	Virtuous
+EN_UA_013617.txt	Saudi Arabia	2682	2693	Protagonist	Virtuous
+EN_UA_013617.txt	Iran	2699	2702	Protagonist	Virtuous
+EN_UA_013617.txt	America	3039	3045	Antagonist	Tyrant
+EN_UA_013617.txt	Western allies	3055	3068	Antagonist	Tyrant
+EN_UA_024050.txt	U.K	185	187	Antagonist	Conspirator
+EN_UA_024050.txt	German generals	514	528	Antagonist	Conspirator
+EN_UA_024050.txt	German generals	981	995	Antagonist	Incompetent
+EN_UA_024050.txt	German Army	1230	1240	Antagonist	Incompetent
+EN_UA_024050.txt	Russia	1381	1386	Protagonist	Virtuous
+EN_UA_024050.txt	Germany	2178	2184	Antagonist	Traitor
+EN_UA_024050.txt	Ukraine	2252	2258	Antagonist	Incompetent
+EN_UA_024050.txt	France	2529	2534	Antagonist	Conspirator
+EN_UA_024050.txt	Poland	2540	2545	Antagonist	Conspirator
+EN_UA_024050.txt	Weimar Triangle	2902	2916	Antagonist	Conspirator
+EN_UA_016466.txt	Putin	114	118	Antagonist	Bigot
+EN_UA_016466.txt	Russia	2121	2126	Protagonist	Guardian
+EN_UA_016466.txt	the West	2225	2232	Antagonist	Foreign Adversary
+EN_UA_023816.txt	NATO	89	92	Antagonist	Deceiver
+EN_UA_023816.txt	Western countries	1664	1680	Antagonist	Instigator
+EN_UA_023816.txt	Washington	1790	1799	Antagonist	Conspirator
+EN_UA_023816.txt	Brussels	1805	1812	Antagonist	Conspirator
+EN_UA_023816.txt	United States	1990	2002	Antagonist	Conspirator
+EN_UA_026142.txt	Israel	535	540	Antagonist	Instigator	Tyrant
+EN_UA_026142.txt	Palestinians	569	580	Innocent	Victim
+EN_UA_026142.txt	US-	590	592	Antagonist	Foreign Adversary
+EN_UA_026142.txt	Iran	616	619	Innocent	Victim
+EN_UA_026142.txt	Biden	1284	1288	Antagonist	Instigator
+EN_UA_026142.txt	Sunak	1291	1295	Antagonist	Instigator
+EN_UA_026142.txt	Macron	1298	1303	Antagonist	Instigator
+EN_UA_026142.txt	Scholz	1309	1314	Antagonist	Instigator
+EN_UA_026142.txt	Julian Assange	1738	1751	Protagonist	Martyr
+EN_UA_026142.txt	Bogdan Syrotiuk	1834	1848	Innocent	Scapegoat
+EN_UA_026142.txt	Zelensky	1927	1934	Antagonist	Tyrant
+EN_UA_026142.txt	Bogdan	2024	2029	Protagonist	Martyr
+EN_UA_026142.txt	Zionist	2564	2570	Antagonist	Bigot
+EN_UA_026142.txt	working class	2802	2814	Protagonist	Rebel
+EN_UA_002991.txt	Marina Ovsyannikova	274	292	Protagonist	Rebel	Martyr
+EN_UA_002991.txt	Russia	799	804	Antagonist	Instigator
+EN_UA_002991.txt	Vladimir Putin	847	860	Antagonist	Tyrant
+EN_UA_022339.txt	Ukraine's military	757	774	Antagonist	Incompetent
+EN_UA_022339.txt	Russian civilians	1455	1471	Innocent	Victim
+EN_UA_022339.txt	Zelensky	2316	2323	Antagonist	Traitor
+EN_UA_022339.txt	Western powers	2361	2374	Antagonist	Foreign Adversary
+EN_UA_022339.txt	Prime Minister of Britain Mr. [Boris] Johnson	2592	2636	Antagonist	Saboteur
+EN_UA_022339.txt	China	3147	3151	Protagonist	Virtuous
+EN_UA_026036.txt	Russia	77	82	Antagonist	Instigator
+EN_UA_029053.txt	Putin	178	182	Antagonist	Incompetent
+EN_UA_029053.txt	Joe Biden	871	879	Antagonist	Incompetent
+EN_UA_029053.txt	Keir Starmer	908	919	Antagonist	Incompetent
+EN_UA_029053.txt	Volodymyr Zelenskyy	962	980	Protagonist	Underdog
+EN_UA_029053.txt	Russia's	1617	1624	Antagonist	Foreign Adversary
+EN_UA_029053.txt	Ukraine	1649	1655	Innocent	Victim
+EN_UA_029053.txt	Putin	2795	2799	Antagonist	Tyrant
+EN_UA_029053.txt	Biden	2908	2912	Protagonist	Peacemaker
+EN_UA_029053.txt	Ayatollah Khamenei	2994	3011	Antagonist	Instigator	Tyrant
+EN_UA_029053.txt	Putin	3107	3111	Antagonist	Instigator
+EN_UA_029053.txt	the West	3204	3211	Antagonist	Incompetent
+EN_UA_015962.txt	Vyacheslav Gladkov	495	512	Protagonist	Guardian
+EN_UA_015962.txt	Putin's Russia	1430	1443	Antagonist	Tyrant
+EN_CC_100036.txt	NASA)	283	287	Antagonist	Conspirator
+EN_UA_104876.txt	VLADIMIR Putin	90	103	Antagonist	Tyrant
+EN_UA_104876.txt	President Volodymyr Zelensky	2305	2332	Protagonist	Guardian
+EN_UA_013344.txt	Vladimir Putin	172	185	Antagonist	Deceiver
+EN_UA_013344.txt	Zhirnov	1329	1335	Protagonist	Rebel
+EN_UA_104859.txt	GUR	1760	1762	Antagonist	Terrorist
+EN_UA_104859.txt	Hunter	2044	2049	Antagonist	Corrupt
+EN_UA_020543.txt	Israel	209	214	Innocent	Victim
+EN_UA_020543.txt	Ukraine	536	542	Innocent	Victim
+EN_UA_020543.txt	Russia	571	576	Antagonist	Foreign Adversary
+EN_UA_020543.txt	Israel	940	945	Innocent	Victim
+EN_UA_001052.txt	German Chancellor Olaf Scholz	2076	2104	Protagonist	Peacemaker
+EN_UA_001052.txt	Blinken	2945	2951	Protagonist	Peacemaker
+EN_UA_004209.txt	Russia	62	67	Protagonist	Guardian
+EN_UA_004209.txt	NATO	108	111	Antagonist	Instigator
+EN_UA_004209.txt	Vladimir Putin	122	135	Protagonist	Guardian
+EN_UA_004209.txt	Finland	1088	1094	Antagonist	Traitor
+EN_UA_004209.txt	Russia	2571	2576	Protagonist	Guardian
+EN_UA_004209.txt	Minister Alexander Grushko	3053	3078	Protagonist	Guardian
+EN_UA_004209.txt	NATO	3103	3106	Antagonist	Conspirator
+EN_UA_003579.txt	international organizations	306	332	Protagonist	Peacemaker
+EN_UA_003579.txt	IMF	846	848	Protagonist	Peacemaker
+EN_UA_003579.txt	World Bank	851	860	Protagonist	Peacemaker
+EN_UA_003579.txt	World Trade Organization	863	886	Protagonist	Peacemaker
+EN_UA_003579.txt	UN World Food Program	892	912	Protagonist	Peacemaker
+EN_UA_003579.txt	World Bank	2714	2723	Protagonist	Peacemaker
+EN_UA_021918.txt	China’s Liberation Army	1593	1615	Antagonist	Foreign Adversary
+EN_UA_027879.txt	West	103	106	Antagonist	Conspirator
+EN_UA_027879.txt	Vladimir Putin	200	213	Protagonist	Guardian
+EN_UA_027879.txt	the West	383	390	Antagonist	Foreign Adversary
+EN_UA_027879.txt	Washington	857	866	Antagonist	Conspirator
+EN_UA_027879.txt	Zelensky	1902	1909	Antagonist	Incompetent
+EN_UA_027879.txt	Putin	2046	2050	Antagonist	Tyrant
+EN_UA_027879.txt	Russia	2172	2177	Protagonist	Guardian
+EN_UA_004343.txt	Ukraine	883	889	Protagonist	Virtuous
+EN_UA_004343.txt	Ukraine	1187	1193	Protagonist	Underdog
+EN_UA_026740.txt	Israel	64	69	Antagonist	Tyrant
+EN_UA_026740.txt	Israel	121	126	Antagonist	Instigator
+EN_UA_026740.txt	South Africa	213	224	Protagonist	Peacemaker
+EN_UA_026740.txt	Palestinians	960	971	Innocent	Victim
+EN_UA_026740.txt	ICJ	1686	1688	Antagonist	Incompetent
+EN_UA_008072.txt	Putin	2431	2435	Antagonist	Incompetent
+EN_UA_100688.txt	Kremlin	1842	1848	Antagonist	Instigator
+EN_UA_100688.txt	Russia	2091	2096	Antagonist	Instigator
+EN_UA_100688.txt	Ukrainians	2887	2896	Protagonist	Guardian
+EN_UA_100688.txt	Vladimir Putin	4045	4058	Antagonist	Instigator
+EN_UA_029155.txt	Volodymyr Zelensky	160	177	Antagonist	Saboteur	Conspirator
+EN_UA_029155.txt	President of Poland	183	201	Antagonist	Saboteur	Conspirator
+EN_UA_029155.txt	Russia	644	649	Innocent	Scapegoat
+EN_UA_029155.txt	US	2376	2377	Antagonist	Saboteur
+EN_UA_029155.txt	US Navy	2485	2491	Antagonist	Saboteur
+EN_UA_001032.txt	Russia	2064	2069	Antagonist	Instigator
+EN_UA_001032.txt	Ukraine?	2079	2086	Innocent	Victim
+EN_UA_001032.txt	Joe Biden	2609	2617	Protagonist	Guardian
+EN_UA_001032.txt	Boris Johnson	2623	2635	Protagonist	Guardian
+EN_CC_100066.txt	California Resources Corp	1475	1499	Antagonist	Conspirator
+EN_UA_103995.txt	Benjamin Netanyahu	617	634	Antagonist	Instigator
+EN_UA_103995.txt	Yahya al-Sinwar	2841	2855	Antagonist	Instigator
+EN_UA_017831.txt	Mike Pence	107	116	Antagonist	Traitor
+EN_UA_017831.txt	Biden administration	499	518	Antagonist	Incompetent
+EN_UA_017831.txt	Ukraine	531	537	Innocent	Victim
+EN_UA_017831.txt	United States	829	841	Innocent	Forgotten
+EN_UA_017831.txt	America	1742	1748	Innocent	Victim
+EN_UA_017831.txt	Vladimir Putin	3056	3069	Antagonist	Foreign Adversary
+EN_UA_021310.txt	China	259	263	Antagonist	Instigator
+EN_UA_021310.txt	Philippines	308	318	Innocent	Victim
+EN_UA_021310.txt	US	331	332	Protagonist	Guardian
+EN_UA_021310.txt	China	1716	1720	Antagonist	Spy
+EN_UA_021310.txt	Russia	2144	2149	Antagonist	Foreign Adversary
+EN_UA_021310.txt	China	2155	2159	Antagonist	Foreign Adversary
+EN_UA_021310.txt	North Korea	2274	2284	Antagonist	Conspirator
+EN_UA_016012.txt	Russia	188	193	Antagonist	Foreign Adversary
+EN_UA_016012.txt	Ukraine	234	240	Innocent	Victim
+EN_UA_016012.txt	Vladimir Putin	393	406	Antagonist	Tyrant
+EN_UA_016012.txt	Zinchenko	1339	1347	Protagonist	Martyr
+EN_UA_016012.txt	Wladimir Klitschko	1442	1459	Protagonist	Martyr
+EN_UA_016012.txt	Oleksandr Usyk	1462	1475	Protagonist	Martyr
+EN_UA_016012.txt	Vasyl Lomachenko	1481	1496	Protagonist	Martyr
+EN_UA_104434.txt	Putin	257	261	Antagonist	Instigator
+EN_UA_014829.txt	Russia	1888	1893	Innocent	Victim
+EN_UA_014829.txt	Vladimir Putin	2207	2220	Innocent	Scapegoat
+EN_UA_014829.txt	Sweden	2938	2943	Antagonist	Deceiver
+EN_UA_014829.txt	US administration	3734	3750	Antagonist	Conspirator
+EN_UA_014829.txt	President Joe Biden	3756	3774	Antagonist	Conspirator
+EN_CC_100038.txt	the Fed	608	614	Antagonist	Tyrant
+EN_CC_100038.txt	the Fed	1081	1087	Antagonist	Incompetent
+EN_UA_103517.txt	Gershkovich	636	646	Protagonist	Underdog
+EN_UA_103517.txt	Putin	1742	1746	Antagonist	Tyrant
+EN_CC_100123.txt	Professor Harries	471	487	Antagonist	Bigot
+EN_CC_100123.txt	Paul Reiter	862	872	Protagonist	Guardian
+EN_UA_103025.txt	Joe Biden	2437	2445	Antagonist	Incompetent
+EN_UA_103025.txt	EU	2761	2762	Antagonist	Incompetent
+EN_UA_010091.txt	Russia	155	160	Antagonist	Instigator	Foreign Adversary
+EN_UA_010091.txt	Ukraine	183	189	Innocent	Victim
+EN_UA_010091.txt	Kremlin	930	936	Antagonist	Instigator
+EN_UA_010091.txt	Europe	1015	1020	Protagonist	Guardian
+EN_UA_010091.txt	Ukraine	1055	1061	Protagonist	Underdog
+EN_UA_100210.txt	Kiev	602	605	Antagonist	Instigator
+EN_UA_100864.txt	Russia	1502	1507	Antagonist	Saboteur
+EN_UA_100864.txt	Putin	1799	1803	Antagonist	Foreign Adversary
+EN_UA_100864.txt	Russia	2079	2084	Antagonist	Instigator
+EN_CC_200021.txt	New York City Mayor Eric Adams	120	149	Antagonist	Tyrant
+EN_CC_200021.txt	Adams	679	683	Antagonist	Tyrant
+EN_CC_200021.txt	Adams	3313	3317	Antagonist	Incompetent
+EN_CC_200021.txt	Melissa McKendree	3451	3467	Protagonist	Virtuous
+EN_UA_028520.txt	The European Union	311	328	Protagonist	Peacemaker	Virtuous
+EN_UA_028520.txt	Ukraine	448	454	Protagonist	Rebel	Underdog
+EN_UA_028520.txt	Viktor Orbán	656	667	Antagonist	Corrupt
+EN_UA_100601.txt	Russia	2008	2013	Antagonist	Instigator
+EN_UA_100601.txt	Belarus	2039	2045	Antagonist	Instigator
+EN_CC_100050.txt	United Nations	206	219	Antagonist	Tyrant
+EN_CC_100003.txt	Justin Trudeau	473	486	Antagonist	Traitor
+EN_CC_100003.txt	Fonda	1391	1395	Antagonist	Incompetent
+EN_UA_100411.txt	Coalition Provisional Authority	1395	1425	Antagonist	Corrupt
+EN_UA_100411.txt	Blinken	2890	2896	Antagonist	Deceiver
+EN_UA_021872.txt	Finland	89	95	Antagonist	Instigator
+EN_UA_021872.txt	Poland	235	240	Antagonist	Foreign Adversary
+EN_UA_021123.txt	United States	558	570	Protagonist	Martyr
+EN_UA_021123.txt	Russian	2562	2568	Antagonist	Saboteur
+EN_UA_012234.txt	KREMLIN propagandists	119	139	Antagonist	Deceiver
+EN_UA_012234.txt	Solovyov	556	563	Antagonist	Bigot
+EN_UA_010909.txt	Ukraine’s intelligence agency	1042	1070	Antagonist	Conspirator
+EN_UA_010909.txt	John Kerry	1853	1862	Antagonist	Instigator
+EN_UA_010909.txt	Samantha Power	1892	1905	Antagonist	Instigator
+EN_UA_010909.txt	Moscow	1931	1936	Innocent	Scapegoat
+EN_UA_021263.txt	Fetterman	573	581	Protagonist	Virtuous
+EN_UA_021263.txt	Hamas	1865	1869	Antagonist	Terrorist
+EN_UA_021263.txt	Israel	2059	2064	Innocent	Victim
+EN_UA_021263.txt	Ukraine	2473	2479	Innocent	Victim
+EN_CC_100012.txt	World Economic Forum	87	106	Antagonist	Conspirator
+EN_CC_100012.txt	the United Nations	691	708	Antagonist	Conspirator
+EN_CC_100012.txt	Dr. Carol Baker	1775	1789	Antagonist	Conspirator
+EN_CC_100012.txt	Bill Gates-	2228	2238	Antagonist	Conspirator
+EN_CC_100012.txt	Biden	3520	3524	Antagonist	Corrupt	Traitor
+EN_CC_100012.txt	Robert F. Kennedy	4416	4432	Protagonist	Guardian
+EN_UA_013727.txt	U.S	99	101	Protagonist	Virtuous
+EN_UA_013727.txt	Vladimir Putin	473	486	Antagonist	Tyrant
+EN_UA_013727.txt	U.S	1208	1210	Antagonist	Corrupt
+EN_UA_013727.txt	NATO	1217	1220	Antagonist	Corrupt
+EN_UA_013727.txt	U.S	1438	1440	Antagonist	Tyrant
+EN_UA_013727.txt	NATO	1447	1450	Antagonist	Tyrant
+EN_UA_013727.txt	Ukraine	1670	1676	Innocent	Victim
+EN_UA_012803.txt	Putin	124	128	Antagonist	Incompetent
+EN_UA_012803.txt	Vladimir Putin	246	259	Antagonist	Deceiver
+EN_UA_012803.txt	Russian government	1828	1845	Antagonist	Conspirator
+EN_UA_012803.txt	Kremlin	2104	2110	Antagonist	Deceiver
+EN_CC_200016.txt	Climate Defiance	216	231	Antagonist	Saboteur	Conspirator
+EN_CC_200016.txt	Far Left	832	839	Antagonist	Terrorist
+EN_CC_200016.txt	DemonRAT	842	849	Antagonist	Terrorist
+EN_CC_200016.txt	Red Flag	852	859	Antagonist	Terrorist
+EN_CC_200016.txt	No Sale Gun	862	872	Antagonist	Terrorist
+EN_UA_104523.txt	America’s	3166	3174	Antagonist	Foreign Adversary
+EN_UA_011260.txt	Ukraine	263	269	Antagonist	Foreign Adversary	Tyrant
+EN_UA_011260.txt	Russia	637	642	Protagonist	Peacemaker
+EN_UA_011260.txt	Ukrainian leadership	830	849	Antagonist	Instigator	Tyrant
+EN_UA_011260.txt	Kyiv regime	958	968	Antagonist	Instigator
+EN_UA_011260.txt	European Union	1075	1088	Antagonist	Conspirator
+EN_UA_011260.txt	Ukraine	1225	1231	Antagonist	Conspirator
+EN_UA_011260.txt	Ukrainian people	1387	1402	Innocent	Victim
+EN_CC_100124.txt	Michael Mann	586	597	Antagonist	Deceiver
+EN_CC_100124.txt	Al Gore	660	666	Antagonist	Bigot
+EN_CC_100002.txt	Piers Corbyn	809	820	Protagonist	Rebel
+EN_CC_200022.txt	World Economic Forum	408	427	Antagonist	Conspirator
+EN_CC_200022.txt	Denmark	585	591	Antagonist	Bigot
+EN_CC_200022.txt	United Nations Environment Program	2289	2322	Antagonist	Deceiver
+EN_UA_013257.txt	Russia	375	380	Protagonist	Underdog
+EN_UA_013257.txt	Russia	944	949	Innocent	Victim
+EN_UA_013257.txt	Russia	1590	1595	Protagonist	Guardian
+EN_UA_013257.txt	Western countries	1667	1683	Antagonist	Saboteur
+EN_UA_013257.txt	Russia	1763	1768	Protagonist	Virtuous
+EN_UA_000104.txt	Biden administration	188	207	Protagonist	Guardian
+EN_UA_000104.txt	Russia	513	518	Antagonist	Instigator
+EN_UA_000104.txt	Ukraine	890	896	Innocent	Victim
+EN_UA_000104.txt	Biden administration	1210	1229	Protagonist	Peacemaker
+EN_UA_000104.txt	government of Germany	2223	2243	Antagonist	Incompetent
+EN_UA_000104.txt	McConnell	2512	2520	Protagonist	Guardian
+EN_UA_027787.txt	the United States	105	121	Antagonist	Instigator
+EN_UA_027787.txt	Kremlin	1864	1870	Protagonist	Guardian
+EN_UA_027787.txt	Dmitry Medvedev	1970	1984	Protagonist	Guardian
+EN_UA_027787.txt	U.S. administration	2269	2287	Antagonist	Terrorist
+EN_UA_027787.txt	Ukrainian leaders	2290	2306	Antagonist	Terrorist
