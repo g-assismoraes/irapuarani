@@ -1,0 +1,65 @@
+Fold 1 Metrics:
+eval_loss: 0.4601
+eval_accuracy: 0.8630
+eval_precision: 0.8456
+eval_recall: 0.8212
+eval_f1: 0.8320
+eval_runtime: 1.4579
+eval_samples_per_second: 100.1440
+eval_steps_per_second: 3.4300
+epoch: 10.0000
+
+Fold 2 Metrics:
+eval_loss: 0.3569
+eval_accuracy: 0.8690
+eval_precision: 0.8232
+eval_recall: 0.8312
+eval_f1: 0.8268
+eval_runtime: 1.4588
+eval_samples_per_second: 99.3940
+eval_steps_per_second: 3.4270
+epoch: 10.0000
+
+Fold 3 Metrics:
+eval_loss: 0.3455
+eval_accuracy: 0.8690
+eval_precision: 0.8273
+eval_recall: 0.8426
+eval_f1: 0.8311
+eval_runtime: 1.4567
+eval_samples_per_second: 99.5390
+eval_steps_per_second: 3.4320
+epoch: 10.0000
+
+Fold 4 Metrics:
+eval_loss: 0.3506
+eval_accuracy: 0.8759
+eval_precision: 0.8394
+eval_recall: 0.8392
+eval_f1: 0.8374
+eval_runtime: 1.4599
+eval_samples_per_second: 99.3250
+eval_steps_per_second: 3.4250
+epoch: 10.0000
+
+Fold 5 Metrics:
+eval_loss: 0.4206
+eval_accuracy: 0.8414
+eval_precision: 0.7995
+eval_recall: 0.7901
+eval_f1: 0.7936
+eval_runtime: 1.4584
+eval_samples_per_second: 99.4230
+eval_steps_per_second: 3.4280
+epoch: 10.0000
+
+Average Metrics Across All Folds:
+eval_loss: 0.3867
+eval_accuracy: 0.8636
+eval_precision: 0.8270
+eval_recall: 0.8248
+eval_f1: 0.8242
+eval_runtime: 1.4583
+eval_samples_per_second: 99.5650
+eval_steps_per_second: 3.4284
+epoch: 10.0000
