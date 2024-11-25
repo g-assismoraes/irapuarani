@@ -1,0 +1,41 @@
+EN_CC_200030.txt	Blaming the war on others rather than the invader;Other;Questioning the measurements and science	The West are the aggressors;Other;Scientific community is unreliable
+EN_CC_200033.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200034.txt	Other	Other
+EN_CC_200035.txt	Amplifying war-related fears;Criticism of institutions and authorities;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;Criticism of national governments;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200036.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200040.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200046.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200047.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200049.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200050.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200053.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200054.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200060.txt	Blaming the war on others rather than the invader;Other	The West are the aggressors;Other
+EN_CC_200063.txt	Amplifying war-related fears;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200064.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200065.txt	Blaming the war on others rather than the invader;Criticism of institutions and authorities;Discrediting the West, Diplomacy;Other	The West are the aggressors;Criticism of national governments;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200069.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Criticism of institutions and authorities;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Criticism of national governments;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200070.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Criticism of institutions and authorities;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Criticism of national governments;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200071.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200077.txt	Other	Other
+EN_CC_200078.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200079.txt	Discrediting the West, Diplomacy;Other	Discrediting the West, Diplomacy: Other;Other
+EN_CC_200081.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_CC_200085.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100002.txt	Amplifying war-related fears;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100003.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Other
+EN_UA_DEV_100004.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100005.txt	Other	Other
+EN_UA_DEV_100012.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100013.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Other
+EN_UA_DEV_100019.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100026.txt	Amplifying war-related fears;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100029.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Diplomacy does/will not work;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100033.txt	Blaming the war on others rather than the invader;Other	The West are the aggressors;Other
+EN_UA_DEV_100034.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_100036.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_20.txt	Other	Other
+EN_UA_DEV_213.txt	Other	Other
+EN_UA_DEV_214.txt	Other	Other
+EN_UA_DEV_215.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Criticism of institutions and authorities;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Criticism of national governments;Discrediting the West, Diplomacy: Other;Other
+EN_UA_DEV_22.txt	Amplifying war-related fears;Blaming the war on others rather than the invader;Discrediting the West, Diplomacy;Other	There is a real possibility that nuclear weapons will be employed;The West are the aggressors;Diplomacy does/will not work;Other
