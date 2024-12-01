@@ -2,6 +2,12 @@ import re, os
 import pdfplumber
 from collections import defaultdict
 import pandas as pd
+import glob
+
+base_dir = "data/"
+
+txt_files = glob.glob(os.path.join(base_dir, "**", "subtask-2-annotations.txt"), recursive=True)
+
 
 def getTheme(taxonomies: dict, data: str) -> str:
     """
@@ -22,6 +28,17 @@ def getTheme(taxonomies: dict, data: str) -> str:
                 taxonomies[theme] = defaultdict(list)
             return theme
     return None
+
+def get_language_from_filename(filename: str) -> str:
+    """
+    Extracts the language from the filename.
+    Args:
+        filename (str): The name of the file.
+    Returns:
+        str: The language code extracted from the filename.
+    """
+    match = re.search(r"(BG|EN|PT|HI)", filename)
+    return match.group(1) if match else "Unknown"
 
 def extract_taxonomy_from_pdf(pdf_path: str) -> defaultdict:
     """
@@ -80,22 +97,21 @@ theme_mapping = {
 def count_narratives_in_txt(txt_file_path: str, taxonomies: dict, 
                             narrative_counts: defaultdict, 
                             subnarrative_counts: defaultdict, 
-                            theme_counts: defaultdict) -> tuple:
+                            theme_counts: defaultdict, 
+                            lang: str) -> tuple:
     """
-    Counts the number of occurrences of narratives, subnarratives, and themes in a .txt file.
-
-    The file is read line by line, and themes, narratives, and subnarratives are counted
-    based on the mapping provided by the extracted taxonomies.
+    Updated to count narratives, subnarratives, and themes, also adding clustering by language.
 
     Args:
         txt_file_path (str): Path to the text file containing annotations.
         taxonomies (dict): Dictionary of taxonomies containing themes, narratives, and subnarratives.
-        narrative_counts (defaultdict): Dictionary to store the count of narratives.
-        subnarrative_counts (defaultdict): Dictionary to store the count of subnarratives.
-        theme_counts (defaultdict): Dictionary to store the count of themes.
+        narrative_counts (defaultdict): Dictionary to store the count of narratives by language.
+        subnarrative_counts (defaultdict): Dictionary to store the count of subnarratives by language.
+        theme_counts (defaultdict): Dictionary to store the count of themes by language.
+        lang (str): Language of the current file.
 
     Returns:
-        tuple: Three updated dictionaries containing the count of narratives, subnarratives, and themes.
+        tuple: Updated dictionaries with counts per language.
     """
     with open(txt_file_path, 'r') as file:
         for line in file:
@@ -118,44 +134,62 @@ def count_narratives_in_txt(txt_file_path: str, taxonomies: dict,
 
                     theme = theme_mapping.get(theme_abbr.strip())
                     if theme:
-                        theme_counts[theme] += 1 
+                        theme_counts[(theme, lang)] += 1 
                     if theme and narrative_name.strip() in taxonomies[theme]:
-                        narrative_counts[narrative_name.strip()] += 1
+                        narrative_counts[(narrative_name.strip(), lang)] += 1
                     if subnarrative_name and (theme and narrative_name.strip() in taxonomies[theme]
                         and subnarrative_name.strip() in taxonomies[theme][narrative_name.strip()]):
-                        subnarrative_counts[subnarrative_name.strip()] += 1
+                        subnarrative_counts[(subnarrative_name.strip(), lang)] += 1
                 except ValueError:
-                    continue  # Ignore malformed lines
+                    continue
 
     return narrative_counts, subnarrative_counts, theme_counts
 
-txt_files = [
-    "data/sep11release/BG/subtask-2-annotations.txt",
-    "data/sep11release/EN/subtask-2-annotations.txt",
-    "data/sep11release/PT/subtask-2-annotations.txt",
-    "data/oct16release/PT/subtask-2-annotations.txt",
-    "data/oct16release/EN/subtask-2-annotations.txt",
-    "data/oct16release/BG/subtask-2-annotations.txt",
-    "data/oct16release/HI/subtask-2-annotations.txt",
-]
-#TODO: automatizar para pegar todos os caminhos dos `subtask-2-annotations.txt` auto
+
 
 narrative_counts = defaultdict(int)
 subnarrative_counts = defaultdict(int)
 theme_counts = defaultdict(int)
 
-# Count narratives, subnarratives, and themes in all .txt files
 for txt_file in txt_files:
+    lang = get_language_from_filename(txt_file)
     narrative_counts, subnarrative_counts, theme_counts = count_narratives_in_txt(
-        txt_file, taxonomies, narrative_counts, subnarrative_counts, theme_counts
+        txt_file, taxonomies, narrative_counts, subnarrative_counts, theme_counts, lang
     )
 
-narrative_df = pd.DataFrame(list(narrative_counts.items()), columns=['Narrative', 'Count'])
-subnarrative_df = pd.DataFrame(list(subnarrative_counts.items()), columns=['Subnarrative', 'Count'])
-theme_df = pd.DataFrame(list(theme_counts.items()), columns=['Theme', 'Count'])
+narrative_df = pd.DataFrame(
+    [{'Narrative': k[0], 'Language': k[1], 'Count': v} for k, v in narrative_counts.items()]
+)
+subnarrative_df = pd.DataFrame(
+    [{'Subnarrative': k[0], 'Language': k[1], 'Count': v} for k, v in subnarrative_counts.items()]
+)
+theme_df = pd.DataFrame(
+    [{'Theme': k[0], 'Language': k[1], 'Count': v} for k, v in theme_counts.items()]
+)
 
-narrative_df.to_csv("data/csv/subtask2_narrative_counts.csv", index=False)
-subnarrative_df.to_csv("data/csv/subtask2_subnarrative_counts.csv", index=False)
-theme_df.to_csv("data/csv/subtask2_theme_counts.csv", index=False)
+def find_zero_counts(taxonomies, counts, level):
+    """
+    Finds items with zero counts in the given level (theme/narrative/subnarrative).
+    """
+    zero_count_items = []
+    for theme, narratives in taxonomies.items():
+        for narrative, subnarratives in narratives.items():
+            if level == 'narrative' and (narrative, "Unknown") not in counts:
+                zero_count_items.append({'Theme': theme, 'Narrative': narrative, 'Count': 0})
+            if level == 'subnarrative':
+                for subnarrative in subnarratives:
+                    if (subnarrative, "Unknown") not in counts:
+                        zero_count_items.append({'Theme': theme, 'Narrative': narrative, 'Subnarrative': subnarrative, 'Count': 0})
+    return zero_count_items
 
-print("\nData saved in 'subtask2_narrative_counts.csv', 'subtask2_subnarrative_counts.csv', and 'subtask2_theme_counts.csv'.")
+zero_narratives = find_zero_counts(taxonomies, narrative_counts, 'narrative')
+zero_subnarratives = find_zero_counts(taxonomies, subnarrative_counts, 'subnarrative')
+
+zero_narratives_df = pd.DataFrame(zero_narratives)
+zero_subnarratives_df = pd.DataFrame(zero_subnarratives)
+
+narrative_df.to_csv("data/csv/subtask2_narrative_counts_by_language.csv", index=False)
+subnarrative_df.to_csv("data/csv/subtask2_subnarrative_counts_by_language.csv", index=False)
+theme_df.to_csv("data/csv/subtask2_theme_counts_by_language.csv", index=False)
+zero_narratives_df.to_csv("data/csv/subtask2_zero_narratives.csv", index=False)
+zero_subnarratives_df.to_csv("data/csv/subtask2_zero_subnarratives.csv", index=False)
