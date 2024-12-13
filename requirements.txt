@@ -7,3 +7,4 @@ sklearn
 numpy
 huggingface_hub
 openai
+pdfplumber==0.11.4
