@@ -1,0 +1,9 @@
+apache-beam==2.59.0
+jupyter==1.1.1
+pandas==2.2.3
+transformers
+torch
+sklearn
+numpy
+huggingface_hub
+openai
