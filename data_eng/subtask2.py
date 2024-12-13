@@ -3,11 +3,23 @@ import pdfplumber
 from collections import defaultdict
 import pandas as pd
 import glob
+import logging
+import sys
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("semeval2024_st2_metrics_count_themes.log"),
+        logging.StreamHandler()
+    ]
+)
 
 base_dir = "data/"
 
+logging.info("Procurando arquivos de texto na estrutura de diretórios.")
 txt_files = glob.glob(os.path.join(base_dir, "**", "subtask-2-annotations.txt"), recursive=True)
-
 
 def getTheme(taxonomies: dict, data: str) -> str:
     """
@@ -26,6 +38,7 @@ def getTheme(taxonomies: dict, data: str) -> str:
             theme = line.split(':')[1].strip()
             if theme not in taxonomies:
                 taxonomies[theme] = defaultdict(list)
+            logging.info(f"Tema encontrado: {theme}")
             return theme
     return None
 
@@ -37,7 +50,7 @@ def get_language_from_filename(filename: str) -> str:
     Returns:
         str: The language code extracted from the filename.
     """
-    match = re.search(r"(BG|EN|PT|HI)", filename)
+    match = re.search(r"(BG|EN|PT|HI|RU)", filename)
     return match.group(1) if match else "Unknown"
 
 def extract_taxonomy_from_pdf(pdf_path: str) -> defaultdict:
@@ -55,37 +68,30 @@ def extract_taxonomy_from_pdf(pdf_path: str) -> defaultdict:
                      Structure: {theme: {narrative: [subnarrative_1, subnarrative_2, ...]}}.
     """
     taxonomies = defaultdict(lambda: defaultdict(list))
-    current_narrative = None
-
     with pdfplumber.open(pdf_path) as pdf:
         theme = None
         for page in pdf.pages:
             text = page.extract_text()
             if not text:
                 continue
-            
             theme = getTheme(taxonomies, text) or theme
-
             for line in text.split('\n'):
                 line = line.strip()
-
                 if line == "Other":
                     current_narrative = line
-
                 if "Figure" in line:
                     break
-
                 if line and not line.startswith("-"):
                     current_narrative = line
                     taxonomies[theme][current_narrative].append('Other')
-                    
                 elif line.startswith("-") and current_narrative:
                     subnarrative = line.lstrip("- ").strip()
                     taxonomies[theme][current_narrative].append(subnarrative)
-
+    logging.info("Taxonomias extraídas do PDF com sucesso.")
     return taxonomies
 
 pdf_path = "data/NARRATIVE-TAXONOMIES.pdf"  
+logging.info(f"Extraindo taxonomias do arquivo PDF: {pdf_path}")
 taxonomies = extract_taxonomy_from_pdf(pdf_path)
 
 theme_mapping = {
@@ -117,7 +123,7 @@ def count_narratives_in_txt(txt_file_path: str, taxonomies: dict,
         for line in file:
             parts = re.split('\t|;|\n', line)[:-1]
             if len(parts) < 2:
-                continue  
+                continue
 
             article_id = parts[0]
             NarrativesSubnarratives_lst = parts[1:]
@@ -141,8 +147,9 @@ def count_narratives_in_txt(txt_file_path: str, taxonomies: dict,
                         and subnarrative_name.strip() in taxonomies[theme][narrative_name.strip()]):
                         subnarrative_counts[(subnarrative_name.strip(), lang)] += 1
                 except ValueError:
+                    logging.warning(f"Linha malformada no arquivo: {txt_file_path}")
                     continue
-
+    logging.info(f"Processado arquivo: {txt_file_path}")
     return narrative_counts, subnarrative_counts, theme_counts
 
 
@@ -153,6 +160,7 @@ theme_counts = defaultdict(int)
 
 for txt_file in txt_files:
     lang = get_language_from_filename(txt_file)
+    logging.info(f"Processando arquivo: {txt_file} (Idioma: {lang})")
     narrative_counts, subnarrative_counts, theme_counts = count_narratives_in_txt(
         txt_file, taxonomies, narrative_counts, subnarrative_counts, theme_counts, lang
     )
@@ -188,8 +196,38 @@ zero_subnarratives = find_zero_counts(taxonomies, subnarrative_counts, 'subnarra
 zero_narratives_df = pd.DataFrame(zero_narratives)
 zero_subnarratives_df = pd.DataFrame(zero_subnarratives)
 
+def generate_percentage_csv(theme_df):
+    """
+    Gera um CSV com as porcentagens de CC, URW e ALL por idioma.
+
+    Args:
+        theme_df (pd.DataFrame): DataFrame contendo os temas, idiomas e contagens.
+
+    Returns:
+        None
+    """
+    relevant_themes = ["Climate Change label taxonomy", "Ukraine War label taxonomy"]
+    filtered_df = theme_df[theme_df["Theme"].isin(relevant_themes)]
+
+    total_by_language = filtered_df.groupby("Language")["Count"].sum()
+
+    percentages_df = filtered_df.groupby(["Language", "Theme"])["Count"].sum().unstack(fill_value=0)
+    percentages_df["ALL"] = total_by_language
+    percentages_df["CC (%)"] = (percentages_df["Climate Change label taxonomy"] / percentages_df["ALL"]) * 100
+    percentages_df["URW (%)"] = (percentages_df["Ukraine War label taxonomy"] / percentages_df["ALL"]) * 100
+
+    output_path = "data/csv/subtask2_theme_percentages_by_language.csv"
+    percentages_df[["CC (%)", "URW (%)", "ALL"]].to_csv(output_path, index=True)
+    logging.info(f"Arquivo CSV com porcentagens salvo em: {output_path}")
+
+
+
+logging.info("Salvando resultados em arquivos CSV.")
+
+generate_percentage_csv(theme_df)
 narrative_df.to_csv("data/csv/subtask2_narrative_counts_by_language.csv", index=False)
 subnarrative_df.to_csv("data/csv/subtask2_subnarrative_counts_by_language.csv", index=False)
 theme_df.to_csv("data/csv/subtask2_theme_counts_by_language.csv", index=False)
 zero_narratives_df.to_csv("data/csv/subtask2_zero_narratives.csv", index=False)
 zero_subnarratives_df.to_csv("data/csv/subtask2_zero_subnarratives.csv", index=False)
+logging.info("Processamento concluído e arquivos CSV gerados.")

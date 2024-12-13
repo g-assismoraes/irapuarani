@@ -1,0 +1,156 @@
+2024-12-12 22:55:49,648 - INFO - Procurando arquivos de texto na estrutura de diretórios.
+2024-12-12 22:55:49,651 - INFO - Extraindo taxonomias do arquivo PDF: data/NARRATIVE-TAXONOMIES.pdf
+2024-12-12 22:55:49,686 - INFO - Tema encontrado: Ukraine War label taxonomy
+2024-12-12 22:55:49,718 - INFO - Tema encontrado: Climate Change label taxonomy
+2024-12-12 22:55:49,718 - INFO - Taxonomias extraídas do PDF com sucesso.
+2024-12-12 22:55:49,719 - INFO - Processando arquivo: data/sep11release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:55:49,719 - INFO - Processado arquivo: data/sep11release/BG/subtask-2-annotations.txt
+2024-12-12 22:55:49,720 - INFO - Processando arquivo: data/sep11release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:55:49,720 - INFO - Processado arquivo: data/sep11release/EN/subtask-2-annotations.txt
+2024-12-12 22:55:49,720 - INFO - Processando arquivo: data/sep11release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:55:49,721 - INFO - Processado arquivo: data/sep11release/PT/subtask-2-annotations.txt
+2024-12-12 22:55:49,721 - INFO - Processando arquivo: data/oct16release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:55:49,722 - INFO - Processado arquivo: data/oct16release/BG/subtask-2-annotations.txt
+2024-12-12 22:55:49,722 - INFO - Processando arquivo: data/oct16release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 22:55:49,723 - INFO - Processado arquivo: data/oct16release/HI/subtask-2-annotations.txt
+2024-12-12 22:55:49,724 - INFO - Processando arquivo: data/oct16release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:55:49,725 - INFO - Processado arquivo: data/oct16release/EN/subtask-2-annotations.txt
+2024-12-12 22:55:49,725 - INFO - Processando arquivo: data/oct16release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:55:49,726 - INFO - Processado arquivo: data/oct16release/PT/subtask-2-annotations.txt
+2024-12-12 22:55:49,727 - INFO - Processando arquivo: data/dez06release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:55:49,729 - INFO - Processado arquivo: data/dez06release/BG/subtask-2-annotations.txt
+2024-12-12 22:55:49,729 - INFO - Processando arquivo: data/dez06release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 22:55:49,732 - INFO - Processado arquivo: data/dez06release/HI/subtask-2-annotations.txt
+2024-12-12 22:55:49,732 - INFO - Processando arquivo: data/dez06release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:55:49,735 - INFO - Processado arquivo: data/dez06release/EN/subtask-2-annotations.txt
+2024-12-12 22:55:49,735 - INFO - Processando arquivo: data/dez06release/RU/subtask-2-annotations.txt (Idioma: Unknown)
+2024-12-12 22:55:49,736 - INFO - Processado arquivo: data/dez06release/RU/subtask-2-annotations.txt
+2024-12-12 22:55:49,736 - INFO - Processando arquivo: data/dez06release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:55:49,739 - INFO - Processado arquivo: data/dez06release/PT/subtask-2-annotations.txt
+2024-12-12 22:55:49,741 - INFO - Salvando resultados em arquivos CSV.
+2024-12-12 22:55:49,744 - INFO - Processamento concluído e arquivos CSV gerados.
+2024-12-12 22:56:44,140 - INFO - Procurando arquivos de texto na estrutura de diretórios.
+2024-12-12 22:56:44,142 - INFO - Extraindo taxonomias do arquivo PDF: data/NARRATIVE-TAXONOMIES.pdf
+2024-12-12 22:56:44,175 - INFO - Tema encontrado: Ukraine War label taxonomy
+2024-12-12 22:56:44,205 - INFO - Tema encontrado: Climate Change label taxonomy
+2024-12-12 22:56:44,205 - INFO - Taxonomias extraídas do PDF com sucesso.
+2024-12-12 22:56:44,206 - INFO - Processando arquivo: data/sep11release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:56:44,206 - INFO - Processado arquivo: data/sep11release/BG/subtask-2-annotations.txt
+2024-12-12 22:56:44,207 - INFO - Processando arquivo: data/sep11release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:56:44,207 - INFO - Processado arquivo: data/sep11release/EN/subtask-2-annotations.txt
+2024-12-12 22:56:44,207 - INFO - Processando arquivo: data/sep11release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:56:44,208 - INFO - Processado arquivo: data/sep11release/PT/subtask-2-annotations.txt
+2024-12-12 22:56:44,208 - INFO - Processando arquivo: data/oct16release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:56:44,209 - INFO - Processado arquivo: data/oct16release/BG/subtask-2-annotations.txt
+2024-12-12 22:56:44,209 - INFO - Processando arquivo: data/oct16release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 22:56:44,210 - INFO - Processado arquivo: data/oct16release/HI/subtask-2-annotations.txt
+2024-12-12 22:56:44,210 - INFO - Processando arquivo: data/oct16release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:56:44,212 - INFO - Processado arquivo: data/oct16release/EN/subtask-2-annotations.txt
+2024-12-12 22:56:44,212 - INFO - Processando arquivo: data/oct16release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:56:44,213 - INFO - Processado arquivo: data/oct16release/PT/subtask-2-annotations.txt
+2024-12-12 22:56:44,213 - INFO - Processando arquivo: data/dez06release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 22:56:44,216 - INFO - Processado arquivo: data/dez06release/BG/subtask-2-annotations.txt
+2024-12-12 22:56:44,216 - INFO - Processando arquivo: data/dez06release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 22:56:44,218 - INFO - Processado arquivo: data/dez06release/HI/subtask-2-annotations.txt
+2024-12-12 22:56:44,218 - INFO - Processando arquivo: data/dez06release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 22:56:44,221 - INFO - Processado arquivo: data/dez06release/EN/subtask-2-annotations.txt
+2024-12-12 22:56:44,221 - INFO - Processando arquivo: data/dez06release/RU/subtask-2-annotations.txt (Idioma: Unknown)
+2024-12-12 22:56:44,222 - INFO - Processado arquivo: data/dez06release/RU/subtask-2-annotations.txt
+2024-12-12 22:56:44,222 - INFO - Processando arquivo: data/dez06release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 22:56:44,225 - INFO - Processado arquivo: data/dez06release/PT/subtask-2-annotations.txt
+2024-12-12 22:56:44,227 - INFO - Salvando resultados em arquivos CSV.
+2024-12-12 22:56:44,230 - INFO - Processamento concluído e arquivos CSV gerados.
+2024-12-12 23:11:08,659 - INFO - Procurando arquivos de texto na estrutura de diretórios.
+2024-12-12 23:11:08,661 - INFO - Extraindo taxonomias do arquivo PDF: data/NARRATIVE-TAXONOMIES.pdf
+2024-12-12 23:11:08,691 - INFO - Tema encontrado: Ukraine War label taxonomy
+2024-12-12 23:11:08,719 - INFO - Tema encontrado: Climate Change label taxonomy
+2024-12-12 23:11:08,719 - INFO - Taxonomias extraídas do PDF com sucesso.
+2024-12-12 23:11:08,719 - INFO - Processando arquivo: data/sep11release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:08,720 - INFO - Processado arquivo: data/sep11release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:08,720 - INFO - Processando arquivo: data/sep11release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:08,720 - INFO - Processado arquivo: data/sep11release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:08,720 - INFO - Processando arquivo: data/sep11release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:08,721 - INFO - Processado arquivo: data/sep11release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:08,721 - INFO - Processando arquivo: data/oct16release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:08,723 - INFO - Processado arquivo: data/oct16release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:08,723 - INFO - Processando arquivo: data/oct16release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:11:08,723 - INFO - Processado arquivo: data/oct16release/HI/subtask-2-annotations.txt
+2024-12-12 23:11:08,724 - INFO - Processando arquivo: data/oct16release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:08,725 - INFO - Processado arquivo: data/oct16release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:08,725 - INFO - Processando arquivo: data/oct16release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:08,726 - INFO - Processado arquivo: data/oct16release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:08,726 - INFO - Processando arquivo: data/dez06release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:08,729 - INFO - Processado arquivo: data/dez06release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:08,729 - INFO - Processando arquivo: data/dez06release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:11:08,731 - INFO - Processado arquivo: data/dez06release/HI/subtask-2-annotations.txt
+2024-12-12 23:11:08,731 - INFO - Processando arquivo: data/dez06release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:08,733 - INFO - Processado arquivo: data/dez06release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:08,733 - INFO - Processando arquivo: data/dez06release/RU/subtask-2-annotations.txt (Idioma: Unknown)
+2024-12-12 23:11:08,734 - INFO - Processado arquivo: data/dez06release/RU/subtask-2-annotations.txt
+2024-12-12 23:11:08,734 - INFO - Processando arquivo: data/dez06release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:08,737 - INFO - Processado arquivo: data/dez06release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:08,739 - INFO - Salvando resultados em arquivos CSV.
+2024-12-12 23:11:08,741 - INFO - Processamento concluído e arquivos CSV gerados.
+2024-12-12 23:11:54,708 - INFO - Procurando arquivos de texto na estrutura de diretórios.
+2024-12-12 23:11:54,710 - INFO - Extraindo taxonomias do arquivo PDF: data/NARRATIVE-TAXONOMIES.pdf
+2024-12-12 23:11:54,741 - INFO - Tema encontrado: Ukraine War label taxonomy
+2024-12-12 23:11:54,769 - INFO - Tema encontrado: Climate Change label taxonomy
+2024-12-12 23:11:54,769 - INFO - Taxonomias extraídas do PDF com sucesso.
+2024-12-12 23:11:54,769 - INFO - Processando arquivo: data/sep11release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:54,770 - INFO - Processado arquivo: data/sep11release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:54,770 - INFO - Processando arquivo: data/sep11release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:54,771 - INFO - Processado arquivo: data/sep11release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:54,771 - INFO - Processando arquivo: data/sep11release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:54,771 - INFO - Processado arquivo: data/sep11release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:54,771 - INFO - Processando arquivo: data/oct16release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:54,773 - INFO - Processado arquivo: data/oct16release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:54,773 - INFO - Processando arquivo: data/oct16release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:11:54,774 - INFO - Processado arquivo: data/oct16release/HI/subtask-2-annotations.txt
+2024-12-12 23:11:54,774 - INFO - Processando arquivo: data/oct16release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:54,775 - INFO - Processado arquivo: data/oct16release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:54,775 - INFO - Processando arquivo: data/oct16release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:54,776 - INFO - Processado arquivo: data/oct16release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:54,776 - INFO - Processando arquivo: data/dez06release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:11:54,779 - INFO - Processado arquivo: data/dez06release/BG/subtask-2-annotations.txt
+2024-12-12 23:11:54,779 - INFO - Processando arquivo: data/dez06release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:11:54,781 - INFO - Processado arquivo: data/dez06release/HI/subtask-2-annotations.txt
+2024-12-12 23:11:54,781 - INFO - Processando arquivo: data/dez06release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:11:54,783 - INFO - Processado arquivo: data/dez06release/EN/subtask-2-annotations.txt
+2024-12-12 23:11:54,783 - INFO - Processando arquivo: data/dez06release/RU/subtask-2-annotations.txt (Idioma: RU)
+2024-12-12 23:11:54,784 - INFO - Processado arquivo: data/dez06release/RU/subtask-2-annotations.txt
+2024-12-12 23:11:54,784 - INFO - Processando arquivo: data/dez06release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:11:54,788 - INFO - Processado arquivo: data/dez06release/PT/subtask-2-annotations.txt
+2024-12-12 23:11:54,789 - INFO - Salvando resultados em arquivos CSV.
+2024-12-12 23:11:54,792 - INFO - Processamento concluído e arquivos CSV gerados.
+2024-12-12 23:25:11,356 - INFO - Procurando arquivos de texto na estrutura de diretórios.
+2024-12-12 23:25:11,358 - INFO - Extraindo taxonomias do arquivo PDF: data/NARRATIVE-TAXONOMIES.pdf
+2024-12-12 23:25:11,388 - INFO - Tema encontrado: Ukraine War label taxonomy
+2024-12-12 23:25:11,416 - INFO - Tema encontrado: Climate Change label taxonomy
+2024-12-12 23:25:11,416 - INFO - Taxonomias extraídas do PDF com sucesso.
+2024-12-12 23:25:11,416 - INFO - Processando arquivo: data/sep11release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:25:11,417 - INFO - Processado arquivo: data/sep11release/BG/subtask-2-annotations.txt
+2024-12-12 23:25:11,417 - INFO - Processando arquivo: data/sep11release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:25:11,418 - INFO - Processado arquivo: data/sep11release/EN/subtask-2-annotations.txt
+2024-12-12 23:25:11,418 - INFO - Processando arquivo: data/sep11release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:25:11,418 - INFO - Processado arquivo: data/sep11release/PT/subtask-2-annotations.txt
+2024-12-12 23:25:11,418 - INFO - Processando arquivo: data/oct16release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:25:11,420 - INFO - Processado arquivo: data/oct16release/BG/subtask-2-annotations.txt
+2024-12-12 23:25:11,420 - INFO - Processando arquivo: data/oct16release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:25:11,421 - INFO - Processado arquivo: data/oct16release/HI/subtask-2-annotations.txt
+2024-12-12 23:25:11,421 - INFO - Processando arquivo: data/oct16release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:25:11,422 - INFO - Processado arquivo: data/oct16release/EN/subtask-2-annotations.txt
+2024-12-12 23:25:11,422 - INFO - Processando arquivo: data/oct16release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:25:11,423 - INFO - Processado arquivo: data/oct16release/PT/subtask-2-annotations.txt
+2024-12-12 23:25:11,423 - INFO - Processando arquivo: data/dez06release/BG/subtask-2-annotations.txt (Idioma: BG)
+2024-12-12 23:25:11,426 - INFO - Processado arquivo: data/dez06release/BG/subtask-2-annotations.txt
+2024-12-12 23:25:11,426 - INFO - Processando arquivo: data/dez06release/HI/subtask-2-annotations.txt (Idioma: HI)
+2024-12-12 23:25:11,428 - INFO - Processado arquivo: data/dez06release/HI/subtask-2-annotations.txt
+2024-12-12 23:25:11,428 - INFO - Processando arquivo: data/dez06release/EN/subtask-2-annotations.txt (Idioma: EN)
+2024-12-12 23:25:11,430 - INFO - Processado arquivo: data/dez06release/EN/subtask-2-annotations.txt
+2024-12-12 23:25:11,431 - INFO - Processando arquivo: data/dez06release/RU/subtask-2-annotations.txt (Idioma: RU)
+2024-12-12 23:25:11,431 - INFO - Processado arquivo: data/dez06release/RU/subtask-2-annotations.txt
+2024-12-12 23:25:11,431 - INFO - Processando arquivo: data/dez06release/PT/subtask-2-annotations.txt (Idioma: PT)
+2024-12-12 23:25:11,435 - INFO - Processado arquivo: data/dez06release/PT/subtask-2-annotations.txt
+2024-12-12 23:25:11,436 - INFO - Salvando resultados em arquivos CSV.
+2024-12-12 23:25:11,457 - INFO - Arquivo CSV com porcentagens salvo em: data/csv/subtask2_theme_percentages_by_language.csv
+2024-12-12 23:25:11,459 - INFO - Processamento concluído e arquivos CSV gerados.
