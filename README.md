@@ -7,6 +7,3 @@
     - [PDF | Narratives](https://propaganda.math.unipd.it/semeval2025task10/NARRATIVE-TAXONOMIES.pdf)
 
 
-**TODO List:**
-
- - Melhorar codigo de minerar paths `subtask2`.
